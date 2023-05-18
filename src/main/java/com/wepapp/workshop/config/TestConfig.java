@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.wepapp.workshop.model.User;
+import com.wepapp.workshop.entity.User;
 import com.wepapp.workshop.repository.UserRepository;
 
 @Configuration

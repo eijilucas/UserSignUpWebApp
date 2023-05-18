@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wepapp.workshop.model.User;
+import com.wepapp.workshop.entity.User;
 import com.wepapp.workshop.repository.UserRepository;
 
 @Service

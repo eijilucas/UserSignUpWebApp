@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.wepapp.workshop.model.User;
+import com.wepapp.workshop.entity.User;
 import com.wepapp.workshop.services.UserServices;
 
 @RestController
