@@ -7,7 +7,6 @@ import java.util.Objects;
 import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.wepapp.workshop.entity.enums.OrderStatus;
 
 import jakarta.persistence.CascadeType;
@@ -94,7 +93,6 @@ public class Order implements Serializable{
 		return items;
 	}
 
-	@JsonIgnore
 	public Payment getPayment() {
 		return payment;
 	}
@@ -103,6 +101,14 @@ public class Order implements Serializable{
 		this.payment = payment;
 	}
 
+	public Double getTotal() {
+		double sum = 0;
+		for(OrderItem x : items) {
+			sum = sum + x.getSubTotal();
+		}
+		return sum;
+	}
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
