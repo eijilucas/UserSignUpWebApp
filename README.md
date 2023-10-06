@@ -2,9 +2,9 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/eijilucas/shop-project/blob/main/LICENSE) 
 
 # Sobre o projeto
-Projeto criado com base nas aulas de Spring Framework
+Projeto criado com base nas aulas de Spring.
 
-O projeto se consiste em um web service para o gerenciamento de compras/pedidos.
+O projeto se consiste em um web service para o gerenciamento de compras e pedidos utilizando Spring.
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/eijilucas/assets/blob/main/diagrama.png)
